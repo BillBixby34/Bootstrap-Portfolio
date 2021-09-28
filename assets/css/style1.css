@@ -1,0 +1,74 @@
+/* will begin anew */
+/* General */
+/*background of pages should have gray img*/
+body{
+    background-image: url("../images/concrete_seamless.png");
+    padding: 0;
+    margin: 0;
+    line-height: 150%;
+}
+.container {
+    margin: 0 auto;
+}
+section{
+    background-color: #fff;
+}
+h1,h2,h3 {
+    font-family: "Georgia",'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 24px;
+}
+.page-header {
+    padding: 24px;
+}
+/*-----------*/
+/*navbar*/
+/* brand name should be static, not change when moused over */
+/* brand name color should be changed WITHOUT important. css specificity*/
+/*navbar rest text is gray or default*/
+.navbar {
+    background-color: #fff;
+    margin-left: 85px;
+    /* margin-right: 20px; */
+    
+
+}
+/* a.navbar-brand:hover {color:#fff;} */
+.navbar-brand{
+    font-size: 30px;
+    background-color: teal;
+    color: #fff;
+}
+
+/*--------------*/
+/*CONNECT sidebar*/
+/*center alignment of img*/
+#connect img {
+    height: 50px;
+    width: 50px;
+}
+
+/*-------------*/
+/*footer*/
+/*footer position at bottom of page*/
+/*footer background is gray with a 5-10px blue strip at top*/
+/*footer text is centered and white*/
+
+
+/*-----------*/
+/*ABOUT/INDEX*/
+/*main panel with title, thumbnail&text, and text*/
+/*title blue w/seperation, text gray, background white*/
+
+/*sidebar with title, and img links*/
+/*title blue w/seperation, background white
+
+/*-------------*/
+/*PORTFOLIO*/
+
+
+/*-------------*/
+/*CONTACT*/
+
+
