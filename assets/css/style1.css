@@ -60,23 +60,26 @@ h2 {
 /*-------------*/
 /*footer*/
 /*footer position at bottom of page*/
+/* not fixed,sticky,issues static & relative fullscreen,maybe absolute */
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #666;
-    text-align: center;
     color: #fff;
     margin-top: 10px;
     
 }
-/*footer background is gray with a 5-10px blue strip at top*/
 /*footer text is centered and white*/
-/* footer decorative with teal color */
+.footer-text{
+    text-align: center;
+    padding: 5px;
+}
 .footer-two-tone {
     background-color: #4aaaa5;
-    height: 5px;   
+    height: 5px; 
+    margin-bottom: 10px;  
 }
 /*-----------*/
 /*ABOUT/INDEX*/
@@ -90,6 +93,10 @@ h2 {
     margin: 0 20px;
 }
 /*sidebar with title, and img links*/
+.sidebar{
+    padding-bottom: 20px;
+}
+
 /*title blue w/seperation, background white
 
 /*-------------*/
